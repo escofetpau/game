@@ -1,31 +1,28 @@
 ﻿<Properties StartupConfiguration="{D5940BAC-FF50-239E-6515-C044FE7B7251}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/NextTextF1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DragAndDrop.cs">
     <Files>
-      <File FileName="Assets/Scripts/changeStage.cs" Line="20" Column="33" />
-      <File FileName="Assets/Scripts/NextTextF1.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/NextTextF3.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DragAndDrop.cs" Line="10" Column="21" />
+      <File FileName="Assets/MerdaDenPau/Paddle.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AR_Demo2" expanded="True">
             <Node name="Assets" expanded="True">
+              <Node name="MerdaDenPau" expanded="True" />
               <Node name="Scripts" expanded="True">
-                <Node name="NextTextF1.cs" selected="True" />
+                <Node name="DragAndDrop.cs" selected="True" />
               </Node>
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="AR_Demo2" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b64b3523-0d44-464d-b783-a9fb32d5096c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a56ca398-b04f-424d-a776-cfb4651538c6" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

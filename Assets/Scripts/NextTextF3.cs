@@ -13,6 +13,8 @@ public class NextTextF3 : MonoBehaviour
     public GameObject backB;
     public GameObject startGameB;
 
+    public GameObject atomImage;
+
     //public GameObject tumorImage;
 
     public static int textIndex;
@@ -23,7 +25,7 @@ public class NextTextF3 : MonoBehaviour
 
     // Hey Buddy! 134
     string [] textos = new string[] {
-        "Let's turn the machine on and make it work!"
+        "Let's turn the machine on and make it work!\n\n\n"
     };
     
     void Start () {
@@ -56,7 +58,8 @@ public class NextTextF3 : MonoBehaviour
 
         switch (textIndex) {
             case 0:
-              //  instruction.fontSize = 50;
+                instruction.fontSize = 60;
+                atomImage.SetActive(true);
                 nextB.SetActive(false);
                 backB.SetActive(false);
                 startGameB.SetActive(true);

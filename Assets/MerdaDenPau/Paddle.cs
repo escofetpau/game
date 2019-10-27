@@ -5,23 +5,26 @@ using UnityEngine;
 public class Paddle : MonoBehaviour
 {
 
-	public float speed = 7f;
+    bool moveAllowed = false;
 
-	private float input;
-
-    // Start is called before the first frame update
-    void Start()
+    void OnMouseDown()
     {
-        
-    }
+        Debug.Log("MouseDown");
+        moveAllowed = true;
 
-    // Update is called once per frame
-    void Update()
+    }
+    private void OnMouseDrag()
     {
-        input = Input.GetAxisRaw("Mouse X"); //Not Sure
-    }
+        if (moveAllowed)
+        {
+            Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            transform.position = new Vector2(mousePosition.x, transform.position.y);
 
-    private void FixedUpdate() {
-    	GetComponent<Rigidbody2D>().velocity = Vector2.right * input * speed;
+        }
+    }
+    private void OnMouseUp()
+    {
+        moveAllowed = false;
+        Debug.Log("ssdsa");
     }
 }

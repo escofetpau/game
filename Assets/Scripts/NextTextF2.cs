@@ -15,6 +15,8 @@ public class NextTextF2 : MonoBehaviour
 
     public static int textIndex;
 
+    public GameObject rayImage;
+
     public Animator animatorText2;
 
     Text instruction;
@@ -25,7 +27,7 @@ public class NextTextF2 : MonoBehaviour
         "Radiotherapy helps you beat the malignant cells without you seen or feeling anything.",
         "Do you know how it works? It look's like magic!",
         "First to make the machine work we need to get energy.",
-        "Help us get enough energy for the machine!"
+        "Help us get enough energy for the machine!  \n\n\n\n"
     };
 
     
@@ -75,12 +77,14 @@ public class NextTextF2 : MonoBehaviour
             break; 
             
             case 3:
+                rayImage.SetActive(false);
                // tumorImage.SetActive(false);
                // instruction.fontSize = 59;
             break; 
 
             case 4:
               //  instruction.fontSize = 50;
+                rayImage.SetActive(true);
                 nextB.SetActive(false);
                 backB.SetActive(false);
                 startGameB.SetActive(true);
