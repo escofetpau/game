@@ -62787,7 +62787,7 @@ MonoBehaviour:
   jumpForce: 8
   isJumping: 0
   jumpTimer: 0.1
-  jumpTimerCounter: 0
+  jumpTimerCounter: 0.15
   velocitat: 7
   groundLayers:
     serializedVersion: 2
