@@ -6,6 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: db20b2a799ee70446a494f0a07eadaa3
+  - enabled: 1
+    path: Assets/Scenes/Fraction1.unity
+    guid: a98824b54da04684ab96002c215a337f
+  - enabled: 1
+    path: Assets/Scenes/JocAlba.unity
+    guid: 19d802e893d39684991539864b99df73
+  - enabled: 1
+    path: Assets/Scenes/Fraction2.unity
+    guid: d502e354ad9af7e4f96172203da52b9a
+  - enabled: 1
+    path: Assets/Scenes/JocNico.unity
+    guid: ee857517741156a429d2fe94821827c5
+  - enabled: 1
+    path: Assets/Scenes/Fraction3.unity
+    guid: 4b83282f60602204e819c618b1eb374c
+  - enabled: 1
+    path: Assets/Scenes/JocPau.unity
+    guid: 29374a7f7abb94b468a1ddd1e3167652
+  - enabled: 1
+    path: Assets/Scenes/Fraction4.unity
+    guid: 05884d60faf1cf34a81f60cf30c52bee
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: b2e0aa4d8f54b4ee688ab41f872fcf55
   m_configObjects: {}

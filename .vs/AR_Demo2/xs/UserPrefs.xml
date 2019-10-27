@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{D5940BAC-FF50-239E-6515-C044FE7B7251}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/NextTextF1.cs">
+    <Files>
+      <File FileName="Assets/Scripts/changeStage.cs" Line="20" Column="33" />
+      <File FileName="Assets/Scripts/NextTextF1.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AR_Demo2" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="NextTextF1.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="AR_Demo2" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b64b3523-0d44-464d-b783-a9fb32d5096c" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

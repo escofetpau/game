@@ -27,7 +27,7 @@ public class NextTextF1 : MonoBehaviour
         "How does cancer start?",
         "Cancer starts with a tumor.\n\nA tumor can be benign or malignant.\n\n\n\n\n\n\n\n",
         "In the process of diagnosis we have to distinguish between  normal cells and abnormal cells.",
-        "Don't let the cells touch the cancer cells!\n\nHave in mind that:\n\n- Cancer cells don’t stop reproducing\n\n- Don’t obey signals from other calls\n\n- don’t stick together\n\n"
+        "Don't let the cells touch the cancer cells!\n\nHave in mind that:\n\n- Cancer cells don’t stop reproducing\n\n- Don’t obey signals from other calls\n\n- Don’t stick together\n\n"
     };
     
     void Start () {
@@ -36,7 +36,7 @@ public class NextTextF1 : MonoBehaviour
         nextB.SetActive(true);
         backB.SetActive(true);
         startGameB.SetActive(false);
-        tumorImage.SetActive(false);
+        //stumorImage.SetActive(false);
     }
 
     public void changeToNextText () {
@@ -64,15 +64,18 @@ public class NextTextF1 : MonoBehaviour
             break; 
 
             case 1:
+                tumorImage.SetActive(false);
                 instruction.fontSize = 83;
             break; 
 
             case 2:
                 instruction.fontSize = 50;
+                Debug.Log("trues");
                 tumorImage.SetActive(true);
             break; 
             
             case 3:
+                Debug.Log("false");
                 tumorImage.SetActive(false);
                 instruction.fontSize = 59;
             break; 

@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 public class changeLevel : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    public bool isCompleted;
+
+    public GameObject Score;
+
     void Start()
     {
         
@@ -14,13 +19,18 @@ public class changeLevel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        isCompleted = Score.GetComponent<ScoreScript>().isCompletedConsult();
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
 
             
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (isCompleted == true) {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
         
     }
 }
