@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/pauescofet/AR_Demo/AR_Demo.apk
+/Users/pauescofet/AR_Demo/BeatIt!.apk
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/Fraction1.unity
@@ -220,7 +220,7 @@ e0ee4b3d4e27318934cc940a969d3d96 UnityEngine.Networking.dll:UnityEngine.Networki
 ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
-282689d5c3af9cd7fe5eb61119c862e5 Assembly-CSharp.dll:.NextTextF3
+35d2771a85b17fa9371ee83391a8ce3a Assembly-CSharp.dll:.NextTextF3
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.changeScene
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.DefaultTrackableEventHandler
 35a9693c388776aaf487636491a20f11 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
@@ -253,7 +253,7 @@ d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 7dddf2624b2cdc940b9c718e69aa692d Assembly-CSharp.dll:.changeLevel
 df434544c9f7b33d1cc7e635b180d279 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
-afc5b93a7b192de2dcb3832fe35a5c7e Assembly-CSharp.dll:.Paddle
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Paddle
 6982080e4f7ab695cefce62e09530168 Assembly-CSharp.dll:.Coin
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.GS
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
@@ -290,7 +290,7 @@ fe10de86e42ce80dc24cf76ac1c87c2a Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 69167579cf7fcbb2676fc1e675963dcd Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-282689d5c3af9cd7fe5eb61119c862e5 Assembly-CSharp.dll:.NextTextF2
+cd460fac44cdd55f0d8ee2cb2f36e478 Assembly-CSharp.dll:.NextTextF2
 26fe8d64d18a6adb64611d959c11fe05 Assembly-CSharp.dll:.CameraMovement
 0077fc8e4fbae67f80e80ebd534de5a0 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 ff1cfd768b207053e073f8002f937b81 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour

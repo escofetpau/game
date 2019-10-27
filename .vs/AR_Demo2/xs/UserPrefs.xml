@@ -1,19 +1,26 @@
 ﻿<Properties StartupConfiguration="{D5940BAC-FF50-239E-6515-C044FE7B7251}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DragAndDrop.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MerdaDenNico/Scripts/Movement.cs">
     <Files>
-      <File FileName="Assets/Scripts/NextTextF3.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/DragAndDrop.cs" Line="10" Column="21" />
-      <File FileName="Assets/MerdaDenPau/Paddle.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/NextTextF3.cs" Line="54" Column="10" />
+      <File FileName="Assets/Scripts/DragAndDrop.cs" Line="8" Column="5" />
+      <File FileName="Assets/MerdaDenPau/Paddle.cs" Line="31" Column="1" />
+      <File FileName="Assets/Scripts/changeScene.cs" Line="9" Column="33" />
+      <File FileName="Assets/Scripts/NextTextF1.cs" Line="53" Column="1" />
+      <File FileName="Assets/Scripts/NextTextF2.cs" Line="60" Column="10" />
+      <File FileName="Assets/Scripts/NextTextF4.cs" Line="53" Column="10" />
+      <File FileName="Assets/MerdaDenNico/Scripts/Movement.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AR_Demo2" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="MerdaDenPau" expanded="True" />
-              <Node name="Scripts" expanded="True">
-                <Node name="DragAndDrop.cs" selected="True" />
+              <Node name="MerdaDenNico" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Movement.cs" selected="True" />
+                </Node>
               </Node>
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>

@@ -47,6 +47,10 @@ public class NextTextF4 : MonoBehaviour
     }
 
     public void changeToPreviousText () {
+        if (textIndex == -1)
+        {
+            SceneManager.LoadScene(0);
+        }
         if (textIndex > 0) {
             --textIndex;
             animatorText2.SetTrigger("Text2");

@@ -62784,7 +62784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thurst: {x: 3, y: 0}
   isGrounded: 1
-  jumpForce: 4
+  jumpForce: 8
   isJumping: 0
   jumpTimer: 0.1
   jumpTimerCounter: 0

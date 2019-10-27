@@ -54,6 +54,10 @@ public class NextTextF2 : MonoBehaviour
     }
 
     public void changeToPreviousText () {
+        if (textIndex == -1)
+        {
+            SceneManager.LoadScene(0);
+        }
         if (textIndex > 0) {
             --textIndex;
             //instruction.text = textos[textIndex];
