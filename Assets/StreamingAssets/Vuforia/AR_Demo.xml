@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="X" size="0.030000 0.039975" />
+    <ImageTarget name="path" size="0.040000 0.053300" />
+    <ImageTarget name="horse" size="0.070000 0.052533" />
+    <ImageTarget name="2019" size="0.040000 0.053300" />
+    <ImageTarget name="mlh" size="0.050000 0.037523" />
+    <ImageTarget name="duck" size="0.050000 0.037523" />
+    <ImageTarget name="donkey" size="0.060000 0.045028" />
+  </Tracking>
+</QCARConfig>

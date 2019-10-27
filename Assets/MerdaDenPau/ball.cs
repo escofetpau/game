@@ -1,0 +1,28 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ball : MonoBehaviour
+{
+	public float speed = 5f;
+    // Start is called before the first frame update
+    void Start()
+    {
+        Respawn();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        GetComponent<Rigidbody2D>().velocity = GetComponent<Rigidbody2D>().velocity.normalized * speed;
+    }
+
+    public void Respawn() {
+    	transform.position = Vector3.zero;
+    	GetComponent<Rigidbody2D>().velocity = Random.insideUnitCircle.normalized * speed;
+    }
+
+    public void setSpeed() {
+    	this.speed = 5f;
+    }
+}
